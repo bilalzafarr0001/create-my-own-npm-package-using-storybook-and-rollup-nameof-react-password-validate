@@ -2,7 +2,7 @@ Validate your password with your requirements features
 
 -- Package name : react-password-validate
 
-Do
+Do /.
 npm i react-password-validate
 
 Firsdt you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
@@ -61,6 +61,7 @@ validator: (val) => /[A-Z]/g.test(val),
 ];
 return (
 <>
+
 <h1>Password Validator</h1>
 <Requirements
 value={password}
