@@ -1,9 +1,10 @@
-Validate your password with your requirements features
+### Validate your password with your requirements features
 
--- Package name : react-password-validate
+# Package name : react-password-validate
 
-Do <br />
-npm i react-password-validate
+## Do <br />
+
+### npm i react-password-validate
 
 Firsdt you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
 
