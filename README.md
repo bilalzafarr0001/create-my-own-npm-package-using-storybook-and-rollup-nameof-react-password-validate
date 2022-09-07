@@ -48,6 +48,7 @@ Pass the password value to Requirement component with array of lists of requirem
 ```react
 
 
+import { Requirements } from "react-password-validate";
 
 function App() { <br/>
 const [password, setPassword] = useState(""); <br/>
