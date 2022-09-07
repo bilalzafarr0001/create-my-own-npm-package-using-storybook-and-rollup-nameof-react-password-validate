@@ -6,13 +6,15 @@
 
 ### npm i react-password-validate
 
-Firsdt you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
+First you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
 
-function App() {
-const [password, setPassword] = useState("");
-const [valid, setValid] = useState(false);
+## function App() {
 
-}
+## const [password, setPassword] = useState(""); <br />
+
+## const [valid, setValid] = useState(false);
+
+## }
 
 Create the Array Lists of requirements according to your need like in my case I have four requirements
 
