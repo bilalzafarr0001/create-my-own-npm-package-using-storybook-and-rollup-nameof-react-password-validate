@@ -4,11 +4,9 @@
 
 ## Do <br />
 
-### > npm i react-password-validate
+### npm i react-password-validate
 
-Text that is a quote
-
-First you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
+> First you need to create your app conponent with two use state variable like in our case we need password and other one is isValid variable :
 
 function App() {
 
