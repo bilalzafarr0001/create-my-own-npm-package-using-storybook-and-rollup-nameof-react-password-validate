@@ -1,6 +1,6 @@
 {
   "name": "react-password-validate",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "A simple react component that accepts a list of password requirements and updates each as they are fulfilled",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
