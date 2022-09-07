@@ -18,19 +18,22 @@ const [valid, setValid] = useState(false);
 
 Create the Array Lists of requirements according to your need like in my case I have four requirements
 
-const passwordRequirements = [
+const passwordRequirements = <br/> [
 {
 text: "Must be at least 8 characters",
 validator: (val) => val.length >= 8,
 },
+<br/>
 {
 text: "Must contain at least one number",
 validator: (val) => /\d/g.test(val),
 },
+<br/>
 {
 text: "Must contain at least one lower-case letter",
 validator: (val) => /[a-z]/g.test(val),
 },
+<br/>
 {
 text: "Must contain at least one upper-case letter",
 validator: (val) => /[A-Z]/g.test(val),
