@@ -45,6 +45,10 @@ Pass the password value to Requirement component with array of lists of requirem
 
 <h1>Password Validator</h1>
 
+```react
+
+
+
 function App() { <br/>
 const [password, setPassword] = useState(""); <br/>
 const [valid, setValid] = useState(false);
@@ -90,3 +94,5 @@ onValidChange={(isValid) => setValid(isValid)}
 
 );
 }
+
+```
